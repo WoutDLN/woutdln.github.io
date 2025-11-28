@@ -1,0 +1,14 @@
+---
+layout: page
+description: Conference Paper
+author: Dillen, Wout
+year: 2016
+title: What You C(apture) Is What You Get. Authenticity and Quality Control in Digitization Practices
+eventtitle: DiXiT 3 / ESTS 2016
+eventtitleaddon: "Digital Scholarly Editing: Theory, Practice, Methods"
+venue: Universiteit Antwerpen
+location: Antwerp, Belgium
+date: 2016-10-06
+eventdate: 2016-10-05/2016-10-07
+category: conference-papers
+---

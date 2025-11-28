@@ -1,0 +1,13 @@
+---
+layout: page
+description: Conference Paper
+author: Dillen, Wout and Elli Bleeker
+year: 2019
+title: Publishing Textual Scholarship in the 21st Century. Variants, the Journal of the European Society for Textual Scholarship
+eventtitle: ESTS 2019
+eventtitleaddon: Textual Scholarship in the 21st Century
+venue: University of Malaga
+location: Malaga, Spain
+eventdate: 2019-11-27/2019-11-29
+category: conference-papers
+---
