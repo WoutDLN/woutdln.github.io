@@ -2,36 +2,36 @@
 layout: page
 title: talks
 permalink: /talks/
-description: A growing collection of your cool projects.
+description: Talks given at conferences and the like.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [invited-talks, conference-papers, posters, demos, workshops, panels]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/talks.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
+  <!-- Display categorized talks -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% assign categorized_projects = site.projects | where: "category", category %}
-  {% assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
+  {% assign categorized_talks = site.talks | where: "category", category %}
+  {% assign sorted_talks = categorized_talks | sort: "year" | reverse %}
+  <!-- Generate cards for each talk -->
   {% if page.horizontal %}
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
+    {% for talk in sorted_talks %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for talk in sorted_talks %}
+      {% include talks.liquid %}
     {% endfor %}
   </div>
   {% endif %}
@@ -39,25 +39,25 @@ horizontal: false
 
 {% else %}
 
-<!-- Display projects without categories -->
+<!-- Display talks without categories -->
 
-{% assign sorted_projects = site.projects | sort: "importance" %}
+{% assign sorted_talks = site.talks | sort: "year" %}
 
-  <!-- Generate cards for each project -->
+  <!-- Generate cards for each talk -->
 
 {% if page.horizontal %}
 
   <div class="container">
     <div class="row row-cols-1 row-cols-md-2">
-    {% for project in sorted_projects %}
+    {% for talk in sorted_talks %}
       {% include projects_horizontal.liquid %}
     {% endfor %}
     </div>
   </div>
   {% else %}
   <div class="row row-cols-1 row-cols-md-3">
-    {% for project in sorted_projects %}
-      {% include projects.liquid %}
+    {% for talk in sorted_talks %}
+      {% include talks.liquid %}
     {% endfor %}
   </div>
   {% endif %}
