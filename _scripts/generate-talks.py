@@ -52,13 +52,13 @@ for entry in entries:
     if 'type' in fields:
         fields['category'] = slugify(fields.pop('type'))
 
-    # Determine date for filename, YYYY-MM format
+    # Determine date for filename, YYYY-MM-DD format
     date = fields.get('date')
     if date:
-        date = date.strip()[:7] 
+        date = date.strip()[:10] 
     else:
         eventdate = fields.get('eventdate', '')
-        date = eventdate.strip()[:7] if eventdate else 'unknown-date'
+        date = eventdate.strip()[:10] if eventdate else 'unknown-date'
 
     date = date.replace('{', '').replace('}', '').strip()
 
@@ -82,6 +82,18 @@ for entry in entries:
     first_word = unicodedata.normalize('NFKD', first_word).encode('ascii', 'ignore').decode('ascii')
     first_word_slug = slugify(first_word)
 
+    # generate a description based on the category field
+    desc = fields.get('category')
+    if desc:
+        # replace hyphens with spaces and capitalize words
+        desc = desc.replace('-', ' ')
+        desc = ' '.join(w.capitalize() for w in desc.split())
+        desc = desc.rstrip()
+        if desc.endswith('s'): # remove trailing 's' for singular
+            desc = desc[:-1]
+    else:
+        desc = 'Talk'
+
     # Filename
     filename = f"{date}_{city_slug}_{first_word_slug}.md"
     filepath = os.path.join(output_dir, filename)
@@ -89,7 +101,7 @@ for entry in entries:
     # Build YAML front matter
     yaml_lines = ["---"]
     yaml_lines.append("layout: page")
-    yaml_lines.append("img:")
+    yaml_lines.append(f"description: {desc}")
     for k, v in fields.items():
         yaml_lines.append(f"{k}: {v}")
     yaml_lines.append("---")
