@@ -1,10 +1,24 @@
 
 import os
 import re
+import unicodedata
 
 # Paths
 input_file = "../_bibliography/talks.bib"
 output_dir = "../_talks"
+
+# ! Running this script overwrites elete all .md files in ../_talks
+target_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "../_talks"))
+removed = 0
+if os.path.isdir(target_dir):
+    for fname in os.listdir(target_dir):
+        if fname.lower().endswith(".md"):
+            try:
+                os.remove(os.path.join(target_dir, fname))
+                removed += 1
+            except OSError:
+                pass
+print(f"Removed {removed} .md files from {target_dir}")
 
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
@@ -38,21 +52,38 @@ for entry in entries:
     if 'type' in fields:
         fields['category'] = slugify(fields.pop('type'))
 
-    # Determine date for filename
+    # Determine date for filename, YYYY-MM format
     date = fields.get('date')
     if date:
-        date = date.split('/')[0]  # Take first part if range
+        date = date.strip()[:7] 
     else:
         eventdate = fields.get('eventdate', '')
-        date = eventdate.split('/')[0] if eventdate else 'unknown-date'
+        date = eventdate.strip()[:7] if eventdate else 'unknown-date'
 
     date = date.replace('{', '').replace('}', '').strip()
 
-    # Slugify title
-    title_slug = slugify(fields.get('title', 'untitled'))
+    # determine city for filename
+    city = fields.get('location')
+    city = unicodedata.normalize('NFKD', city).encode('ascii', 'ignore').decode('ascii') # decode diacritics
+    city = city.split(',')[0] # remove country
+    city_slug = slugify(city) 
+
+    # determine short title for filename
+    title_short = fields.get('title', 'untitled')
+    # take the first word from the title and create a slug
+    words = title_short.strip().split()
+    if not words:
+        first_word = 'untitled'
+    else:
+        first_word = words[0]
+        # skip leading articles
+        if first_word.lower() in ('the', 'a') and len(words) > 1:
+            first_word = words[1]
+    first_word = unicodedata.normalize('NFKD', first_word).encode('ascii', 'ignore').decode('ascii')
+    first_word_slug = slugify(first_word)
 
     # Filename
-    filename = f"{date}-{title_slug}.md"
+    filename = f"{date}_{city_slug}_{first_word_slug}.md"
     filepath = os.path.join(output_dir, filename)
 
     # Build YAML front matter
