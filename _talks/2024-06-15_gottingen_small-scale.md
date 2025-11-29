@@ -3,7 +3,8 @@ layout: page
 description: Invited Talk
 author: Dillen, Wout
 year: 2024
-title: Small-Scale Digital Scholarly Editions in the Classroom. A Minimal Approach to Digital Pedagogy using GitHub Pages and GitHub Wikis
+title: Small-Scale Digital Scholarly Editions in the Classroom
+subtitle: A Minimal Approach to Digital Pedagogy using GitHub Pages and GitHub Wikis
 venue: Georg-August-Universität Göttingen
 location: Göttingen, Germany
 eventtitle: The Impact of Scholarly Editions on a Global Scale

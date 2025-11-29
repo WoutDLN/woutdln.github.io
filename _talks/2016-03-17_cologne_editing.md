@@ -2,7 +2,8 @@
 layout: page
 description: Conference Paper
 author: Dillen, Wout
-title: "Editing Copyrighted Materials: On Sharing What You Can"
+title: Editing Copyrighted Materials
+subtitle: On Sharing What You Can
 year: 2016
 eventtitle: DiXiT Convention 2
 eventtitleaddon: Academia, Cultural Heritage, Society

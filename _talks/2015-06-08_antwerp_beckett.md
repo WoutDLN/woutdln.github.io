@@ -2,7 +2,7 @@
 layout: page
 description: Demo
 author: Dillen, Wout, Vincent Neyt, and Dirk Van Hulle
-title: The Beckett Digital Manuscript Project and Beckett's Personal Library.
+title: The Beckett Digital Manuscript Project and Beckett's Personal Library
 year: 2015
 eventtitle: DH Benelux 2015
 location: Antwerp, Belgium

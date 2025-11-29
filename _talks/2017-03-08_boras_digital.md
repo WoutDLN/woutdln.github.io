@@ -3,7 +3,8 @@ layout: page
 description: Local Seminar
 author: Dillen, Wout
 year: 2017
-title: "Closing Seminar: Digital Scholarly Editing and Memory Institutions"
+title: Digital Scholarly Editing and Memory Institutions
+subtitle: Closing Seminar
 eventtitle: DigRes Seminar
 eventtitleaddon: "DigRes: Digital Resources"
 venue: University of Borås

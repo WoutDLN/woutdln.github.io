@@ -2,7 +2,8 @@
 layout: page
 description: Conference Paper
 author: Dillen, Wout
-title: Sequentiality in Genetic Digital Scholarly Editions. Models for Encoding the Dynamics of the Writing Process
+title: Sequentiality in Genetic Digital Scholarly Editions
+subtitle: Models for Encoding the Dynamics of the Writing Process
 year: 2016
 eventtitle: Digital Humanities 2016
 eventtitleaddon: "Digital Identities: the Past and the Future"

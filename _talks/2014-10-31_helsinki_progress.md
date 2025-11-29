@@ -2,7 +2,8 @@
 layout: page
 description: Conference Paper
 author: Dillen, Wout
-title: Progress Report. A Lexicon of Scholarly Editing
+title: Progress Report
+subtitle: A Lexicon of Scholarly Editing
 year: 2014
 eventtitle: ESTS 2014
 eventtitleaddon: Textual Trails. Transmissions of Oral and Written Texts

@@ -2,7 +2,8 @@
 layout: page
 description: Conference Paper
 author: Dillen, Wout, Caroline Macé, Philipp Roelli, and Dirk Van Hulle
-title: "Towards a Common Vocabulary of Textual Scholarship: Two Lexicons and a New Project"
+title: Towards a Common Vocabulary of Textual Scholarship
+subtitle: Two Lexicons and a New Project
 year: 2015
 eventtitle: ESTS 2015
 eventtitleaddon: Users of Scholarly Editions

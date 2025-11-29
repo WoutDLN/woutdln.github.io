@@ -3,7 +3,8 @@ layout: page
 description: Conference Paper
 author: Dillen, Wout
 year: 2019
-title: Free as in Free Beer? LaTeX as a Means to Distribute the Cost of OA Publishing in the Humanities
+title: Free as in Free Beer?
+subtitle: LaTeX as a Means to Distribute the Cost of OA Publishing in the Humanities
 eventtitle: DH Benelux 2019
 eventtitleaddon: Digital Humamities in Society
 location: Liège, Belgium

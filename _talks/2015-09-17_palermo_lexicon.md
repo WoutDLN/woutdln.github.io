@@ -3,7 +3,8 @@ layout: page
 description: Invited Talk
 author: Dillen, Wout
 year: 2015
-title: The Lexicon of Scholarly Editing. A Multilingual Resource for Textual Scholarship
+title: The Lexicon of Scholarly Editing
+subtitle: A Multilingual Resource for Textual Scholarship
 eventtitle: Contemporary Knowledge in the Humanities
 venue: University of Palermo
 location: Palermo, Italy

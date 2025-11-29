@@ -3,7 +3,8 @@ layout: page
 description: Conference Paper
 author: Dillen, Wout
 year: 2020
-title: "Web Accessibility in Digital Scholarly Editing: Considerations from a Survey on Inclusive Design and Dissemination"
+title: Web Accessibility in Digital Scholarly Editing
+subtitle: Considerations from a Survey on Inclusive Design and Dissemination
 eventtitle: Digital Humanities 2020
 eventtitleaddon: carrefours/intersections
 location: Online, Humanities Commons

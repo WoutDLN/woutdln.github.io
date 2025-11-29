@@ -2,7 +2,8 @@
 layout: page
 description: Conference Paper
 author: Dillen, Wout
-title: The Editor in the Interface. Guiding the User through Texts and Images
+title: The Editor in the Interface
+subtitle: Guiding the User through Texts and Images
 year: 2016
 venue: University of Graz
 eventtitle: Digital Scholarly Editions as Interfaces

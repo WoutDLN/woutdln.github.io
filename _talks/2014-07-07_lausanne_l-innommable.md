@@ -2,7 +2,8 @@
 layout: page
 description: Poster
 author: Dillen, Wout
-title: L'Innommable / The Unnamable. The Second Module of the Beckett Digital Manuscript Project
+title: L'Innommable / The Unnamable
+subtitle: The Second Module of the Beckett Digital Manuscript Project
 year: 2014
 eventtitle: Digital Humanities 2014
 location: Lausanne, Switzerland

@@ -3,7 +3,8 @@ layout: page
 description: Invited Talk
 author: Dillen, Wout
 year: 2019
-title: Notes in the Margins. Incorporating Beckett's Library into a Digital Genetic Edition of His Works
+title: Notes in the Margins
+subtitle: Incorporating Beckett's Library into a Digital Genetic Edition of His Works
 venue: Universidade de Lisboa
 location: Lisbon, Portugal
 eventtitle: CLUL Seminar

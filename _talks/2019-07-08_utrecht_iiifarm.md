@@ -3,7 +3,8 @@ layout: page
 description: Conference Paper
 author: Dillen, Wout and Joshua Schäuble
 year: 2019
-title: IIIFarm. Teaching Image Interoperability on a Raspberry Pi Network of IIIF-Compliant Image Servers
+title: IIIFarm
+subtitle: Teaching Image Interoperability on a Raspberry Pi Network of IIIF-Compliant Image Servers
 eventtitle: Digital Humanities 2019
 eventtitleaddon: Complexities
 venue: Utrecht University

@@ -3,7 +3,8 @@ layout: page
 description: Local Seminar
 author: Dillen, Wout
 year: 2025
-title: The Digital Scholarly Edition and the Library. Issues With the Long-Term Preservation of Complex Digital Objects
+title: The Digital Scholarly Edition and the Library
+subtitle: Issues With the Long-Term Preservation of Complex Digital Objects
 venue: University of Borås
 eventtitle: SSLIS Seminar
 eventtitleaddon: Research Seminars of the Swedish School of Library and Information Science

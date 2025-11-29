@@ -2,7 +2,7 @@
 layout: page
 description: Demo
 author: Dillen, Wout
-title: Lexicon of Scholarly Editing.
+title: Lexicon of Scholarly Editing
 year: 2014
 eventtitle: SHARP 2014
 eventtitleaddon: Religions of the Book

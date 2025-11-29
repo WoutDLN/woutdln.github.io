@@ -3,7 +3,8 @@ layout: page
 description: Conference Paper
 author: Dillen, Wout
 year: 2017
-title: Transkribus in Practice. The University of Antwerp's Centre for Manuscript Genetics
+title: Transkribus in Practice
+subtitle: The University of Antwerp's Centre for Manuscript Genetics
 eventtitle: Transkribus User Conference
 location: Vienna, Austria
 venue: Technical University of Vienna
