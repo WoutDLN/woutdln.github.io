@@ -10,8 +10,5 @@ location: The Hague, The Netherlands
 venue: National Library of The Netherlands
 eventdate: 2014-06-12/2014-06-13
 img: /assets/img/cities/thehague.jpg
-other: test
-test: second test
-success: true
 category: posters
 ---
