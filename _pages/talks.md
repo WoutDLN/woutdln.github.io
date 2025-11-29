@@ -5,7 +5,7 @@ permalink: /talks/
 description: Talks given at conferences and the like.
 nav: true
 nav_order: 3
-display_categories: [invited-talks, conference-papers, posters, demos, workshops, panels]
+display_categories: [keynotes, invited-talks, invited-panelist, conference-papers, conference-panels, local-seminars, workshops, posters, demos]
 horizontal: false
 ---
 
