@@ -15,4 +15,3 @@ test: second test
 success: true
 category: posters
 ---
-let's try again.
