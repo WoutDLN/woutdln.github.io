@@ -2,14 +2,13 @@
 layout: page
 description: Local Seminar
 author: Dillen, Wout
-year: 2016
-title: Digital Scholarly Editing and Memory Institutions
+year: 2025
+title: The Digital Scholarly Edition and the Library. Issues With the Long-Term Preservation of Complex Digital Objects
 venue: University of Borås
 eventtitle: SSLIS Seminar
 eventtitleaddon: Research Seminars of the Swedish School of Library and Information Science
 location: Borås, Sweden
 img: /assets/img/cities/boras.jpg
-date: 2016-04-18
-eventdate: 2016-04-18
+date: 2025-09-08
 category: local-seminars
 ---

@@ -6,7 +6,8 @@ title: The Beckett Digital Manuscript Project and Beckett's Personal Library.
 year: 2015
 eventtitle: DH Benelux 2015
 location: Antwerp, Belgium
-venue: University of Antwerp
+img: /assets/img/cities/antwerp.jpg
+eventvenue: University of Antwerp
 date: 2015-06-08/2015-06-09
 category: demos
 ---

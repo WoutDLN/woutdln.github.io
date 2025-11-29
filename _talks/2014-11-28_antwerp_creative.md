@@ -8,6 +8,7 @@ eventtitle: BAAHE 2014
 eventtitleaddon: Digital Trends in (Applied) Linguistics, Literature and Translation Studies
 venue: University of Antwerp
 location: Antwerp, Belgium
+img: /assets/img/cities/antwerp.jpg
 date: 2014-11-28
 category: conference-papers
 ---

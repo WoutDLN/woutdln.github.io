@@ -4,8 +4,9 @@ description: Workshop
 author: Dillen Wout, and Joshua Schäuble
 title: IIIF on a Raspberry Pi
 year: 2017
-eventtitle: Antwerp Summer School in Digital Humanities
+eventtitle: Antwerp Digital Humanities Summer School 2017
 location: Antwerp, Belgium
+img: /assets/img/cities/antwerp.jpg
 venue: University of Antwerp
 date: 2017-09-04/2017-09-05
 eventdate: 2017-09-03/2017-09-07
