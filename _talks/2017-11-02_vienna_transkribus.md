@@ -7,6 +7,7 @@ title: Transkribus in Practice. The University of Antwerp's Centre for Manuscrip
 eventtitle: Transkribus User Conference
 location: Vienna, Austria
 venue: Technical University of Vienna
+img: /assets/img/cities/vienna.jpg
 eventdate: 2017-11-02/2017-11-03
 category: conference-papers
 ---

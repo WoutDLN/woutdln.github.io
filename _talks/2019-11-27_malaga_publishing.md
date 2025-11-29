@@ -8,6 +8,7 @@ eventtitle: ESTS 2019
 eventtitleaddon: Textual Scholarship in the 21st Century
 venue: University of Malaga
 location: Malaga, Spain
+img: /assets/img/cities/malaga.jpg
 eventdate: 2019-11-27/2019-11-29
 category: conference-papers
 ---

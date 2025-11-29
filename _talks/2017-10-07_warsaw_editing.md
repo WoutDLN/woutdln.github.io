@@ -7,6 +7,7 @@ title: Editing Draft Materials. A Genetic Take on Historical Source Editing
 eventtitle: Historical Source Edition 2.0
 venue: University of Warsaw
 location: Warsaw, Poland
+img: /assets/img/cities/warsaw.jpg
 eventdate: 2017-10-07
 category: conference-papers
 ---
