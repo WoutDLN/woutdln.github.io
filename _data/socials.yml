@@ -3,8 +3,8 @@
 # the socials will be displayed in the order they are defined here
 
 # academia_edu:  your organization and your username Ex. https://organization.academia.edu/UserName
-organization: University of Borås # your organization as appears in the subdomain
-#  username:  AlbertEinstein # your username
+# organization: University of Borås # your organization as appears in the subdomain
+# username:  AlbertEinstein # your username
 # acm_id: # your dl.acm.org/profile/id
 # arxiv_id: # your arXiv author ID
 # blogger_url: # your blogger URL
@@ -48,11 +48,11 @@ scholar_userid: 5YyvAOUAAAAJ # your Google Scholar ID
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 # wikidata_id: # your wikidata id
 # wikipedia_id: # your wikipedia id (Case sensitive)
-# work_url: # work page URL
+work_url: https://www.hb.se/en/research/research-portal/researchers/WODI/ # work page URL
 x_username: WoutDLN # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: woutdln # your zotero username
-custom_social: # can be any name here other than the ones already defined above
-  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
-  title: Custom Social
-  url: https://www.alberteinstein.com/
+# custom_social: # can be any name here other than the ones already defined above
+#  logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
+#  title: Custom Social
+#  url: https://www.alberteinstein.com/
