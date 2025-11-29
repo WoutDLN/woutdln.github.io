@@ -7,19 +7,6 @@ import unicodedata
 input_file = "../_bibliography/talks.bib"
 output_dir = "../_talks"
 
-# ! Running this script overwrites elete all .md files in ../_talks
-target_dir = os.path.normpath(os.path.join(os.path.dirname(__file__), "../_talks"))
-removed = 0
-if os.path.isdir(target_dir):
-    for fname in os.listdir(target_dir):
-        if fname.lower().endswith(".md"):
-            try:
-                os.remove(os.path.join(target_dir, fname))
-                removed += 1
-            except OSError:
-                pass
-print(f"Removed {removed} .md files from {target_dir}")
-
 # Ensure output directory exists
 os.makedirs(output_dir, exist_ok=True)
 
@@ -98,6 +85,16 @@ for entry in entries:
     filename = f"{date}_{city_slug}_{first_word_slug}.md"
     filepath = os.path.join(output_dir, filename)
 
+    # Check if the file already exists
+    if os.path.exists(filepath):
+        with open(filepath, "r", encoding="utf-8") as md:
+            # Read the existing content
+            existing_content = md.read()
+            # Split the content to get everything after the YAML front matter
+            orig_content = existing_content.split('---', 2)[2].strip() if existing_content.count('---') > 1 else ""
+    else:
+        orig_content = ""
+
     # Build YAML front matter
     yaml_lines = ["---"]
     yaml_lines.append("layout: page")
@@ -108,6 +105,6 @@ for entry in entries:
 
     # Write markdown file
     with open(filepath, "w", encoding="utf-8") as md:
-        md.write("\n".join(yaml_lines))
+        md.write("\n".join(yaml_lines) + "\n" + orig_content)
 
 print(f"Created {len(entries)} markdown files in {output_dir}.")
