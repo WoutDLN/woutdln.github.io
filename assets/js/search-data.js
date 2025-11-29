@@ -508,13 +508,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
             },},{
-        id: 'social-organization',
-        title: 'Organization',
-        section: 'Socials',
-        handler: () => {
-          window.open("", "_blank");
-        },
-      },{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
@@ -564,6 +557,13 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=5YyvAOUAAAAJ", "_blank");
         },
       },{
+        id: 'social-work',
+        title: 'Work',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.hb.se/en/research/research-portal/researchers/WODI/", "_blank");
+        },
+      },{
         id: 'social-x',
         title: 'X',
         section: 'Socials',
@@ -576,13 +576,6 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.zotero.org/woutdln", "_blank");
-        },
-      },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
         },
       },{
       id: 'light-theme',
