@@ -11,3 +11,4 @@ venue: Ghent University
 date: 2016-10-10/2016-10-13
 category: demos
 ---
+{% include talk_intro.liquid %}

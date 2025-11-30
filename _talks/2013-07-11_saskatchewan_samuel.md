@@ -10,3 +10,4 @@ venue: University of Saskatchewan
 eventdate: 2013-07-11/2013-07-13
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

@@ -13,3 +13,4 @@ date: 2017-08-11
 eventdate: 2017-08-08/2017-08-11
 category: conference-panels
 ---
+{% include talk_intro.liquid %}

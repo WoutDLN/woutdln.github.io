@@ -13,3 +13,4 @@ venue: École normale supérieure
 date: 2013-11-24
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

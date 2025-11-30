@@ -13,3 +13,4 @@ eventdate: 2014-11-13
 img: /assets/img/events/2024-11-uppsala/capturetalks.jpg
 category: invited-panelist
 ---
+{% include talk_intro.liquid %}

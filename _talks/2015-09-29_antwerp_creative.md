@@ -12,3 +12,4 @@ venue: University of Antwerp
 date: 2015-09-29
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

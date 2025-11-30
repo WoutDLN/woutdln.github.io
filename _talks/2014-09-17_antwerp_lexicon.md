@@ -12,3 +12,4 @@ venue: University of Antwerp
 date: 2014-09-17/2014-09-20
 category: demos
 ---
+{% include talk_intro.liquid %}

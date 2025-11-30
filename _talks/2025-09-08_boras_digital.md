@@ -13,3 +13,4 @@ img: /assets/img/cities/boras.jpg
 date: 2025-09-08
 category: local-seminars
 ---
+{% include talk_intro.liquid %}

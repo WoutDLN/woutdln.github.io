@@ -11,3 +11,4 @@ eventvenue: University of Antwerp
 date: 2015-06-08/2015-06-09
 category: demos
 ---
+{% include talk_intro.liquid %}

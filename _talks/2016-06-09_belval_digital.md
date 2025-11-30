@@ -10,3 +10,4 @@ venue: University of Luxembourg
 date: 2016-06-09/2016-06-10
 category: posters
 ---
+{% include talk_intro.liquid %}

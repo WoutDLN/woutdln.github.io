@@ -13,3 +13,4 @@ eventdate: 2025-06-30/2025-07-04
 img: /assets/img/cities/antwerp.jpg
 category: workshops
 ---
+{% include talk_intro.liquid %}

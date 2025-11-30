@@ -14,3 +14,4 @@ img: /assets/img/cities/helsinki.jpg
 date: 2014-10-31
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

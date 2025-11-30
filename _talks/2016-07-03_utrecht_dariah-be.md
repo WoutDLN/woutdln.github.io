@@ -12,3 +12,4 @@ venue: Utrecht University
 date: 2016-07-03/2016-07-05
 category: posters
 ---
+{% include talk_intro.liquid %}

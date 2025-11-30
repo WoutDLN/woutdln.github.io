@@ -14,3 +14,4 @@ date: 2016-07-13
 eventdate: 2016-07-11/2016-07-16
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

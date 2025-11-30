@@ -11,3 +11,4 @@ img: /assets/img/cities/antwerp.jpg
 eventdate: 2015-06-08/2015-06-09
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

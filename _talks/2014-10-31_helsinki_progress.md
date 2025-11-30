@@ -14,3 +14,4 @@ eventdate: 2014-10-30/2014-11-01
 date: 2014-10-31
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

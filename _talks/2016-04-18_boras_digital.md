@@ -13,3 +13,4 @@ date: 2016-04-18
 eventdate: 2016-04-18
 category: local-seminars
 ---
+{% include talk_intro.liquid %}

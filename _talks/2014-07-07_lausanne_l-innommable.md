@@ -11,3 +11,4 @@ venue: University of Lausanne and École Polytechnique Fédérale de Lausanne
 date: 2014-07-07/2014-07-12
 category: posters
 ---
+{% include talk_intro.liquid %}

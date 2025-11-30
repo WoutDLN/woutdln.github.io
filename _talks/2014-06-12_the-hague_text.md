@@ -12,3 +12,4 @@ eventdate: 2014-06-12/2014-06-13
 img: /assets/img/cities/thehague.jpg
 category: posters
 ---
+{% include talk_intro.liquid %}

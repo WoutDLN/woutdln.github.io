@@ -14,3 +14,4 @@ eventdate: 2025-05-26
 img: /assets/img/cities/leuven.jpg
 category: invited-panelist
 ---
+{% include talk_intro.liquid %}

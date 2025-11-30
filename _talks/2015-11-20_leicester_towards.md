@@ -13,3 +13,4 @@ date: 2015-11-20
 eventdate: 2015-11-19/2015-11-21
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

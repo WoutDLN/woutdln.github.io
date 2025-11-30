@@ -12,3 +12,4 @@ img: /assets/img/cities/cambridge.jpg
 eventdate: 2018-09-27/2018-09-28
 category: conference-papers
 ---
+{% include talk_intro.liquid %}

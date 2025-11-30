@@ -11,3 +11,4 @@ venue: University of Antwerp
 date: 2016-10-30
 category: workshops
 ---
+{% include talk_intro.liquid %}

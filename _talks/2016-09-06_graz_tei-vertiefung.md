@@ -13,3 +13,4 @@ img: /assets/img/cities/graz.jpg
 date: 2016-09-06
 category: workshops
 ---
+{% include talk_intro.liquid %}
