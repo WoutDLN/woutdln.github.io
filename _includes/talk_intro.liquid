@@ -1,0 +1,9 @@
+{% capture talk_intro %}
+<div class="talk-intro">
+    <p>
+     This talk was presented by <strong>{{ page.author }}</strong> at <strong>{{ page.eventtitle | append: ": " | append: page.eventtitleaddon }}</strong>{% if page.date %} on <strong>{{ page.date | date: "%A %e %B %Y" }}</strong>{% endif %}. 
+     This event took place in <strong>{{ page.location }}</strong>, at the <strong>{{ page.venue }}</strong>{% if eventdate %}, on <strong>{{ page.eventdate }}</strong>{% endif %}. 
+    </p>
+</div>
+{% endcapture %}
+{{ talk_intro }}

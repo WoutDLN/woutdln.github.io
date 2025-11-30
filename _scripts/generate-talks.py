@@ -1,4 +1,5 @@
 
+from ast import pattern
 import os
 import re
 import unicodedata
@@ -85,6 +86,9 @@ for entry in entries:
     filename = f"{date}_{city_slug}_{first_word_slug}.md"
     filepath = os.path.join(output_dir, filename)
 
+    # Prepare to include a brief talk description
+    talk_intro = "{% include talk_intro.liquid %}"
+
     # Check if the file already exists
     if os.path.exists(filepath):
         with open(filepath, "r", encoding="utf-8") as md:
@@ -92,6 +96,8 @@ for entry in entries:
             existing_content = md.read()
             # Split the content to get everything after the YAML front matter
             orig_content = existing_content.split('---', 2)[2].strip() if existing_content.count('---') > 1 else ""
+            # Remove previous occurrences of talk_intro from orig_content
+            orig_content = orig_content.replace(talk_intro, '')
     else:
         orig_content = ""
 
@@ -101,10 +107,10 @@ for entry in entries:
     yaml_lines.append(f"description: {desc}")
     for k, v in fields.items():
         yaml_lines.append(f"{k}: {v}")
-    yaml_lines.append("---")
+    yaml_lines.append("---")   
 
     # Write markdown file
     with open(filepath, "w", encoding="utf-8") as md:
-        md.write("\n".join(yaml_lines) + "\n" + orig_content)
+        md.write("\n".join(yaml_lines) + "\n" + talk_intro + "\n" + orig_content)
 
 print(f"Created {len(entries)} markdown files in {output_dir}.")
