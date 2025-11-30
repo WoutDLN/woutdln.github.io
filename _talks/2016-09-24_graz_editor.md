@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: The Editor in the Interface
 subtitle: Guiding the User through Texts and Images
 year: 2016

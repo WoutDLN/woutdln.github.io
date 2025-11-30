@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: Editing Copyrighted Materials
 subtitle: On Sharing What You Can
 year: 2016

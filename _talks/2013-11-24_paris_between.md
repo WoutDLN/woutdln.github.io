@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Bālā, Veronica, and Wout Dillen
+author: Veronica Bālā, and Wout Dillen
 title: Between Extant and Virtual Libraries
 subtitle: Beckett's Variant Readings of The Divine Comedy
 year: 2013

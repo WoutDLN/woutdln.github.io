@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout and Joshua Schäuble
+author: Wout Dillen and Joshua Schäuble
 year: 2019
 title: Updating the IIIFarm
 subtitle: What We Learned From Teaching IIIF on a Raspberry Pi Network

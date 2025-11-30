@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: Progress Report
 subtitle: A Lexicon of Scholarly Editing
 year: 2014

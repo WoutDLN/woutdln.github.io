@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2024
 title: Mimimal Computing and Digital Scholarly Editing in the Classroom and Beyond
 subtitle: A Quick Introduction to a Series of Open Access Teaching Materials

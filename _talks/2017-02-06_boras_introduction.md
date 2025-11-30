@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Workshop
-author: Dillen, Wout
+author: Wout Dillen
 title: Introduction to Text Encoding
 year: 2017
 eventtitle: Digitising Cultural Heritage Materials

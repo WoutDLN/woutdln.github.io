@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout and Joshua Schäuble
+author: Wout Dillen and Joshua Schäuble
 year: 2020
 title: Teaching Digital Humanities on Raspberry Pis
 subtitle: A Minimal Computing Approach to Digital Pedagogy

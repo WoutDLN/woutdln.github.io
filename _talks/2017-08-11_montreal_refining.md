@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Panel
-author: Sichani, Anna-Maria, Wout Dillen, Merisa Martinez, Aodhán Kelly, and Elli Bleeker
+author: Anna-Maria Sichani, Wout Dillen, Merisa Martinez, Aodhán Kelly, and Elli Bleeker
 title: Refining Our Concept of 'Access' for Digital Scholarly Editions
 subtitle: A DiXiT Panel on Accessibility
 year: 2017

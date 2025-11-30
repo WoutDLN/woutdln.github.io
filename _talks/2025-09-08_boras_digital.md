@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Local Seminar
-author: Dillen, Wout
+author: Wout Dillen
 year: 2025
 title: The Digital Scholarly Edition and the Library
 subtitle: Issues With the Long-Term Preservation of Complex Digital Objects

@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2019
 title: Free as in Free Beer?
 subtitle: LaTeX as a Means to Distribute the Cost of OA Publishing in the Humanities

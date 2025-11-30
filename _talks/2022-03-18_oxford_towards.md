@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2022
 title: Towards Increased Web Accessibility in our Digital Scholarly Editions
 venue: Oxford University

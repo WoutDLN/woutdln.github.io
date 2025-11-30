@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2019
 title: How FAIR is (Web) Accessibility?
 subtitle: Reflections on a Survey on Contrasting Conceptions of Accessibility With Regard To Digital Scholarly Editions, and their Relevance to the FAIR Principles

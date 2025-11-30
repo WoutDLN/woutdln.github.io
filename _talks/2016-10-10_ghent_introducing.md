@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Demo
-author: Dillen, Wout, and Vincent Neyt
+author: Wout Dillen, and Vincent Neyt
 title: Introducing the Manuscript Desk
 year: 2016
 eventtitle: DARIAH-EU 2016

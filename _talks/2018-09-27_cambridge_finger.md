@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2018
 title: A Finger in Every Pi
 subtitle: Experiences Designing and Teaching a Hands-On IIIF course for the Antwerp Summer School on Digital Humanities

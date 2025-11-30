@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: The Samuel Beckett Digital Manuscript Project as a Collaborative Genetic Edition
 year: 2013
 eventtitle: Social, Digital, Scholarly Editing

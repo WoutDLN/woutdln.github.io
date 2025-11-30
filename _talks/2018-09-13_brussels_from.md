@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Poster
-author: Chambers, Sally, Wout Dillen, Tom Gheldof, Andrea Penso, and Vincent Vandeghinste
+author: Sally Chambers, Wout Dillen, Tom Gheldof, Andrea Penso, and Vincent Vandeghinste
 title: From DARIAH to CLARIAH in Flanders. Developing an Open Humanities Service Infrastructure
 year: 2020
 eventtitle: EWI-FWO Info- en Netwerkevent

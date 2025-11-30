@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Poster
-author: Dillen, Wout
+author: Wout Dillen
 title: L'Innommable / The Unnamable
 subtitle: The Second Module of the Beckett Digital Manuscript Project
 year: 2014

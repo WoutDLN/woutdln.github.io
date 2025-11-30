@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, Vincent Neyt, Pim Verheyen, and Pim Verhulst
+author: Wout Dillen, Vincent Neyt, Pim Verheyen, and Pim Verhulst
 title: Creative Undoing and Textual Scholarship (CUTS)
 year: 2015
 eventtitle: Towards a Genetics of Translation

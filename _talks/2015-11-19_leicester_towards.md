@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, and Sakari Katajamäki
+author: Wout Dillen, and Sakari Katajamäki
 title: Towards a Multilingual Discussion of Textual Criticism
 subtitle: Lexica for Textual Scholarship and Scholarly Editing
 year: 2015

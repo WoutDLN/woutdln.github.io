@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Demo
-author: Dillen, Wout
+author: Wout Dillen
 title: A Lexicon of Scholarly Editing
 year: 2015
 eventtitle: DH Benelux 2015

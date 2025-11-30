@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2024
 title: Small-Scale Digital Scholarly Editions in the Classroom
 subtitle: A Minimal Approach to Digital Pedagogy using GitHub Pages and GitHub Wikis

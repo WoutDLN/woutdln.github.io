@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Bleeker, Elli, Wout Dillen, and Mike Kestemont
+author: Elli Bleeker, Wout Dillen, and Mike Kestemont
 title: Voorstelling Platform Digital Humanities
 year: 2015
 eventtitle: VAL Onderzoeksdag 2015

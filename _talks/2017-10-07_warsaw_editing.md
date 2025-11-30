@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout and Dirk Van Hulle
+author: Wout Dillen and Dirk Van Hulle
 year: 2017
 title: Editing Draft Materials
 subtitle: A Genetic Take on Historical Source Editing

@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Schäuble, Joshua, Wout Dillen, and Dirk Van Hulle
+author: Joshua Schäuble, Wout Dillen, and Dirk Van Hulle
 year: 2022
 title: Towards Computer-Assisted Genetic Criticism
 subtitle: Exploiting HTR (Handwritten Text Recognition) Technologies to Automate Genetic Workflows

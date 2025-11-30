@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Local Seminar
-author: Dillen, Wout
+author: Wout Dillen
 year: 2017
 title: Digital Scholarly Editing and Memory Institutions
 subtitle: Closing Seminar

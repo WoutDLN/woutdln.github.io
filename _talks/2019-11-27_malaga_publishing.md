@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout and Elli Bleeker
+author: Wout Dillen and Elli Bleeker
 year: 2019
 title: Publishing Textual Scholarship in the 21st Century
 subtitle: Variants, the Journal of the European Society for Textual Scholarship

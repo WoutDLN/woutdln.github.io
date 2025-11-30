@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Workshop
-author: Dillen Wout, and Joshua Schäuble
+author: Wout Dillen, and Joshua Schäuble
 title: IIIF on a Raspberry Pi
 year: 2017
 eventtitle: Antwerp Digital Humanities Summer School 2017

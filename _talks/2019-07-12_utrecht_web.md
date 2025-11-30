@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2019
 title: Web Accessibility in Digital Scholarly Editing
 subtitle: Considerations from a Survey on Inclusive Design and Dissemination

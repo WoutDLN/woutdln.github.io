@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Panelist
-author: Bilderbeek, Richel, Wout Dillen, Sara Buchanan, James Hodges, and Michael Stiber
+author: Richel Bilderbeek, Wout Dillen, Sara Buchanan, James Hodges, and Michael Stiber
 title: Reflections on Chapters from Perspectives on Paradata
 year: 2024
 venue: University of Uppsala

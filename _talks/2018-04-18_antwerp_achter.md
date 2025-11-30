@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, Mike Kestemont and Dirk Van Hulle
+author: Wout Dillen, Mike Kestemont and Dirk Van Hulle
 year: 2018
 title: Achter het Schrijven
 subtitle: De Digitale Schrijverstafel

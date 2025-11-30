@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2016
 title: What You C(apture) Is What You Get
 subtitle: Authenticity and Quality Control in Digitization Practices

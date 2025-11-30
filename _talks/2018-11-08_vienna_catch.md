@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Beloborodova, Olga, Wout Dillen, and Joshua Schäuble
+author: Olga Beloborodova, Wout Dillen, and Joshua Schäuble
 year: 2018
 title: CATCH 2020
 eventtitle: Transkribus User Conference 2018

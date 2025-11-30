@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, Vincent Neyt and Dirk Van Hulle
+author: Wout Dillen, Vincent Neyt and Dirk Van Hulle
 title: Creative Undoing and Digital Genetic Editing
 subtitle: Beckett as a Reader, Writer, and Self-Translator
 year: 2014

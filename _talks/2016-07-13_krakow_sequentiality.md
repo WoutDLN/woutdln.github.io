@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: Sequentiality in Genetic Digital Scholarly Editions
 subtitle: Models for Encoding the Dynamics of the Writing Process
 year: 2016

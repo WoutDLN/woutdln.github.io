@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Workshop
-author: Dillen, Wout
+author: Wout Dillen
 title: TEI-Vertiefung 2
 subtitle: Transkription, Text und Bild
 year: 2016

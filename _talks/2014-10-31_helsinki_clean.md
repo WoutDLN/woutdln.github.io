@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 title: Clean versus Functional Code in Scholarly Digital Editing
 subtitle: The Case of the Beckett Digital Manuscript Project
 year: 2014

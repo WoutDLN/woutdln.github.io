@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, Caroline Macé, Philipp Roelli, and Dirk Van Hulle
+author: Wout Dillen, Caroline Macé, Philipp Roelli, and Dirk Van Hulle
 title: Towards a Common Vocabulary of Textual Scholarship
 subtitle: Two Lexicons and a New Project
 year: 2015

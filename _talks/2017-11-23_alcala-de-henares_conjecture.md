@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2017
 title: Conjecture of Chronology in Digital Scholarly Editing
 eventtitle: ESTS 2017

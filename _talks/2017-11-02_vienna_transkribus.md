@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2017
 title: Transkribus in Practice
 subtitle: The University of Antwerp's Centre for Manuscript Genetics

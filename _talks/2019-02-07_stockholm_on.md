@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2019
 title: On Trying to Set Up Long-Term Cross-Institutional Service Infrastructures with Short-Term Funding
 eventtitle: From Text to Data

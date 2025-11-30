@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Chambers, Sally, Frédéric Lemmers, Thuy-An Pham, Julie Birkholz, Antoine Jacquet, Wout Dillen, Dilawar Ali, and Steven Verstockt
+author: Sally Chambers, Frédéric Lemmers, Thuy-An Pham, Julie Birkholz, Antoine Jacquet, Wout Dillen, Dilawar Ali, and Steven Verstockt
 year: 2021
 title: Collections as Data
 subtitle: "Interdisciplinary Experiments with KBR's Digitised Historical Newspapers: A Belgian Case Study"

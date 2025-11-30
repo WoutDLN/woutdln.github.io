@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2015
 title: The Lexicon of Scholarly Editing
 subtitle: A Multilingual Resource for Textual Scholarship

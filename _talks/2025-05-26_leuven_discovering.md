@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Panelist
-author: Birkholz, Julie, Wout Dillen, Houda Lamqaddam, Marco Passarotti, Sytze Van Herck, and Jolan Wuyts
+author: Julie Birkholz, Wout Dillen, Houda Lamqaddam, Marco Passarotti, Sytze Van Herck, and Jolan Wuyts
 title: Discovering the Field
 subtitle: Panel Session with DH Scholars
 year: 2025

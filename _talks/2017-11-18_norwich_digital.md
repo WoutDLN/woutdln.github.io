@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout
+author: Wout Dillen
 year: 2017
 title: Digital Humanities at Antwerp
 subtitle: A Short Introduction to Research Groups and Projects at the Faculty of Arts

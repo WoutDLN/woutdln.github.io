@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Dillen, Wout, Vincent Neyt, and Dirk Van Hulle
+author: Wout Dillen, Vincent Neyt, and Dirk Van Hulle
 title: Samuel Beckett's Library and Exogenesis
 year: 2015
 eventtitle: DH Benelux 2015

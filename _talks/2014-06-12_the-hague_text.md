@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Poster
-author: Dillen, Wout
+author: Wout Dillen
 title: The Text of the Document
 subtitle: Image-Text Linking in the Beckett Digital Manuscript Project
 year: 2014

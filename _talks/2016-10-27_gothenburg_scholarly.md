@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2016
 title: Scholarly Editing in the Digital Medium
 venue: Göteborgs Universitet

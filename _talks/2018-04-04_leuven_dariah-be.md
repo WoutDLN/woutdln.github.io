@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Conference Paper
-author: Debackere, Ellen, Sally Chambers, Wout Dillen, Björn-Olav Dozo, and Tom Gheldof
+author: Ellen Debackere, Sally Chambers, Wout Dillen, Björn-Olav Dozo, and Tom Gheldof
 year: 2018
 title: DARIAH-BE
 subtitle: Stimulating Long-term Sustainability of Data-driven Research in the Arts and Humanities

@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Poster
-author: Dillen, Wout
+author: Wout Dillen
 title: Digital Scholarly Editing and Memory Institutions
 year: 2016
 eventtitle: DH Benelux 2016

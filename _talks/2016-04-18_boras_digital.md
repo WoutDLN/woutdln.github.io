@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Local Seminar
-author: Dillen, Wout
+author: Wout Dillen
 year: 2016
 title: Digital Scholarly Editing and Memory Institutions
 venue: University of Borås

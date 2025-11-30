@@ -1,7 +1,7 @@
 ---
 layout: page
 description: Invited Talk
-author: Dillen, Wout
+author: Wout Dillen
 year: 2019
 title: Notes in the Margins
 subtitle: Incorporating Beckett's Library into a Digital Genetic Edition of His Works
