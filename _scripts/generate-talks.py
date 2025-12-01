@@ -111,6 +111,6 @@ for entry in entries:
 
     # Write markdown file
     with open(filepath, "w", encoding="utf-8") as md:
-        md.write("\n".join(yaml_lines) + "\n" + talk_intro + "\n" + orig_content)
+        md.write("\n".join(yaml_lines) + "\n" + talk_intro + orig_content)
 
 print(f"Created {len(entries)} markdown files in {output_dir}.")
