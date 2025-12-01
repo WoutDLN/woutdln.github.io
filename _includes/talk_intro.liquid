@@ -20,13 +20,13 @@
             {% if eventdates.size == 1 %}on <strong>{{ page.eventdate }}</strong>{% endif %}
             {% if eventdates.size > 1 %}from <strong>
                 {% if fromdate_monthyear == todate_monthyear %}
-                    {{ fromdate | date: "%A %e" }}
+                    {{ fromdate | date: "%e" }}
                 {% elsif fromdate_year == todate_year %}
-                    {{ fromdate | date : "%A %e %B" }}
+                    {{ fromdate | date : "%e %B" }}
                 {% else %}
-                    {{ fromdate | date : "%A %e %B %Y" }}
+                    {{ fromdate | date : "%e %B %Y" }}
                 {% endif %}
-            </strong> to <strong>{{ todate | date : "%A %e %B %Y" }}</strong>{% endif %}. 
+            </strong> to <strong>{{ todate | date : "%e %B %Y" }}</strong>{% endif %}. 
     </p>
 </div>
 {% endcapture %}
