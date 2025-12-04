@@ -7,7 +7,7 @@
     {% assign todate_monthyear = todate | slice -5, 5 %}
 
 {% capture talk_intro %}
-<div class="talk-intro">
+<div>
     <p>
      This talk was presented 
         by <strong>{{ page.author }}</strong> 
@@ -29,5 +29,23 @@
             </strong> to <strong>{{ todate | date : "%e %B %Y" }}</strong>{% endif %}. 
     </p>
 </div>
+{% if page.eventurl or page.programmeurl or page.pdf %}
+<div>
+    <p>
+        <strong>Links:</strong>
+        {% if page.eventurl %}
+            <a href="{{ page.eventurl }}">Event Website{% if page.eventurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
+        {% endif %}
+        {% if page.eventurl and page.programmeurl or page.pdf %} | {% endif %}
+        {% if page.programmeurl %}
+            <a href="{{ page.programmeurl }}">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
+        {% endif %}
+        {% if page.programmeurl and page.pdf %} | {% endif %}
+        {% if page.pdf %}
+            <a href="{{ page.pdf }}">Slides <i class="fa fa-file-pdf" aria-hidden="true" title="PDF of slides to the presentation"></i></a>
+        {% endif %}
+    </p>
+</div>
+{% endif %}
 {% endcapture %}
 {{ talk_intro }}
