@@ -38,11 +38,22 @@
         {% endif %}
         {% if page.eventurl and page.programmeurl or page.pdf %} | {% endif %}
         {% if page.programmeurl %}
-            <a href="{{ page.programmeurl }}">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
+            <a href="{{ page.programmeurl }} target="_blank">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
         {% endif %}
         {% if page.programmeurl and page.pdf %} | {% endif %}
         {% if page.pdf %}
-            <a href="{{ page.pdf }}">Slides <i class="fa fa-file-pdf" aria-hidden="true" title="PDF of slides to the presentation"></i></a>
+        {% assign link_label = "" %}
+            {% if page.category %}
+                {% assign t = page.category %}
+                {% if t == "conference-papers" %}
+                {% assign link_label = "Slides" %}
+                {% elsif t == "posters" %}
+                {% assign link_label = "Poster" %}
+                {% endif %}
+            {% endif %}
+            {% if link_label != "" %}
+                 <a href="{{ page.pdf }}" target="_blank">{{ link_label }} <i class="fa fa-file-pdf" aria-hidden="true" title="PDF of the {{ link_label | downcase }}"></i></a>
+            {% endif %}
         {% endif %}
     </p>
 </div>
