@@ -16,6 +16,7 @@ category: conference-papers
 {% include talk_intro.liquid %}
 
 ### Abstract
+
 De geschiedenis van een literaire tekst start niet met haar gepubliceerde versie. Integendeel, een literair werk legt doorgaans een lange weg af vooraleer die door de modale lezer geconsumeerd kan worden: van leesnota's, over schema’s, kladversies, gecorrigeerde drukproeven, etcaetera. Dit is een creatief schrijfproces waar materiële aspecten (zoals de fysieke nabijheid van bronmateriaal, of de aard van het schrijfmateriaal) ook hun rol kunnen spelen – een process in het bijzonder in het vakgebied van de Tekstgenese bestudeerd wordt. 
 
 Deze presentatie start met een korte inleiding tot het vakgebied, waarin aan de hand van enkele casussen toegelicht wordt welke nieuwe kansen er in het laatste decennium gecreëerd werden aan de hand van digitale onderzoeksmiddelen, die ontwikkeld werden aan het Centre for Manuscript Genetics. Ze vertrekt bij de CD-ROM editie van Willem Elsschots kortverhaal “Achter de Schermen” waar in de digitale editie aan de hand van schrijfsporen hypothesen gemaakt en gevisualiseerd worden over de chronologische volgorde waarin zinnen (en zelfs zinsdelen) geschreven werden. Als recenter voorbeeld wordt er ingegaan op de digitale tentoonstellingen van literaire werken van Raymond Brulez en Hugo Claus (een samenwerkingsverbanden met het Vlaams literair archief ‘Letterenhuis’) waar het schrijfprocess van gevisualiseerd wordt als een genetisch pad doorheen relevante documenten op een digitale schrijverstafel.  
