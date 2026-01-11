@@ -45,10 +45,10 @@
         {% assign link_label = "" %}
             {% if page.category %}
                 {% assign t = page.category %}
-                {% if t == "conference-papers" %}
-                {% assign link_label = "Slides" %}
-                {% elsif t == "posters" %}
-                {% assign link_label = "Poster" %}
+                {% if t == "posters" %}
+                    {% assign link_label = "Poster" %}
+                {% elsif %}
+                    {% assign link_label = "Slides" %}
                 {% endif %}
             {% endif %}
             {% if link_label != "" %}
