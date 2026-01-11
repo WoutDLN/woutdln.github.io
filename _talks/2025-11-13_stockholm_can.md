@@ -10,13 +10,12 @@ eventtitle: HiC 2025
 eventtitleaddon: Huminfra Conference 2025
 location: Stockholm, Sweden
 img: /assets/img/cities/stockholm.jpg
+slides: /assets/pdf/slides/2025-11-13_can-i-get-credit-for-my-dataset.pdf
 date: 2025-11-13
 eventdate: 2025-11-12/2025-11-13
 category: conference-papers
 ---
 {% include talk_intro.liquid %}
-
-
 ### Abstract
 In today’s technological landscape, our range of scholarly output is no longer confined to traditional academic publication formats like monographs and journal articles. Increasingly, scholars are creating digital objects for research purposes: algorithms, Jupyter Notebooks, curated datasets, etc. Often, publishing such resources in open source is crucial for the accountability and reproducibility of our research. But where do we publish them, to ensure their easy open access and sustainable long-term preservation? And how do we get credit for all the time and effort that was spent developing these valuable resources?
 
