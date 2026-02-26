@@ -5,6 +5,17 @@
 {% assign todate = eventdates | last %}
     {% assign todate_year = todate | slice: -2, 2 %}
     {% assign todate_monthyear = todate | slice -5, 5 %}
+{% assign link_label = "" %}
+    {% if page.category %}
+        {% assign t = page.category %}
+        {% if t == "posters" %}
+            {% assign link_label = "Poster" %}
+        {% elsif t == "demos" %}
+            {% assign link_label = "Flyer" %}
+        {% else %}
+            {% assign link_label = "Slides" %}
+        {% endif %}
+    {% endif %}
 
 {% capture talk_intro %}
 <div>
@@ -36,24 +47,19 @@
         {% if page.eventurl %}
             <a href="{{ page.eventurl }}">Event Website{% if page.eventurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
         {% endif %}
-        {% if page.eventurl and page.programmeurl or page.pdf %} | {% endif %}
+        {% if page.eventurl and page.programmeurl or page.pdf or page.bookofabstracts %} | {% endif %}
         {% if page.programmeurl %}
             <a href="{{ page.programmeurl }}" target="_blank">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
         {% endif %}
-        {% if page.programmeurl and page.pdf %} | {% endif %}
+        {% if page.programmeurl and page.pdf or page.bookofabstracts %} | {% endif %}
         {% if page.pdf %}
-        {% assign link_label = "" %}
-            {% if page.category %}
-                {% assign t = page.category %}
-                {% if t == "posters" %}
-                    {% assign link_label = "Poster" %}
-                {% else %}
-                    {% assign link_label = "Slides" %}
-                {% endif %}
-            {% endif %}
             {% if link_label != "" %}
                  <a href="{{ page.pdf }}" target="_blank">{{ link_label }} <i class="fa fa-file-pdf" aria-hidden="true" title="PDF of the {{ link_label | downcase }}"></i></a>
             {% endif %}
+        {% endif %}
+        {% if page.pdf and page.bookofabstracts %} | {% endif %}
+        {% if page.bookofabstracts %}
+            <a href="{{ page.bookofabstracts }}" target="_blank">Book of Abstracts{% if page.bookofabstracts contains "web.archive.org" or "zenodo.org" or "hcommons.org" %} <i class="fa fa-archive" aria-hidden="true" title="Archived document"></i>{% endif %}</a>
         {% endif %}
     </p>
 </div>
