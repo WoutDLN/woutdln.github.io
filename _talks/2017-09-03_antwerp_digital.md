@@ -10,6 +10,6 @@ location: Antwerp, Belgium
 img: /assets/img/cities/antwerp.jpg
 date: 2017-09-03
 eventdate: 2017-09-03/2017-09-07
-category: workshops
+category: workshop
 ---
 {% include talk_intro.liquid %}

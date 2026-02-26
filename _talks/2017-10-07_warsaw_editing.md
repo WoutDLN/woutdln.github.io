@@ -10,6 +10,6 @@ venue: University of Warsaw
 location: Warsaw, Poland
 img: /assets/img/cities/warsaw.jpg
 eventdate: 2017-10-07
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

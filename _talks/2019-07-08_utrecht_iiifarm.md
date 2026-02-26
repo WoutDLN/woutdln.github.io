@@ -11,6 +11,6 @@ venue: Utrecht University
 location: Utrecht, The Netherlands
 img: /assets/img/cities/utrecht.jpg
 eventdate: 2019-07-08/2019-07-12
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

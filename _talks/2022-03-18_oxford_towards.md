@@ -11,6 +11,6 @@ location: Oxford, UK
 img: /assets/img/cities/oxford.jpg
 date: 2022-03-18
 eventdate: 2022-03-15/2022-03-19
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

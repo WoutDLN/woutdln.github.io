@@ -10,6 +10,6 @@ location: Vienna, Austria
 venue: Technical University of Vienna
 img: /assets/img/cities/vienna.jpg
 eventdate: 2017-11-02/2017-11-03
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

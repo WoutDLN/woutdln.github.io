@@ -11,7 +11,7 @@ venue: Universiteit Antwerpen
 location: Antwerp, Belgium
 img: /assets/img/cities/antwerp.jpg
 eventdate: 2018-04-18/2018-04-20
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

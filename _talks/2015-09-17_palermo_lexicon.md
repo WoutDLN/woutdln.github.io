@@ -11,6 +11,6 @@ location: Palermo, Italy
 img: /assets/img/cities/palermo.jpg
 eventdate: 2015-09-17/2015-09-18
 date: 2015-09-17
-category: invited-talks
+category: invited-talk
 ---
 {% include talk_intro.liquid %}

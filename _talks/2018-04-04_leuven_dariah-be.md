@@ -11,6 +11,6 @@ location: Leuven, Belgium
 img: /assets/img/cities/leuven.jpg
 venue: KU Leuven
 eventdate: 2018-04-04/2018-04-06
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

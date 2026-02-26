@@ -11,6 +11,7 @@ eventtitleaddon: Usability, Pedagogy, Collaboration, Community, and Diversity
 location: Montréal, Canada
 date: 2017-08-11
 eventdate: 2017-08-08/2017-08-11
-category: conference-panels
+img: /assets/img/cities/montreal.jpg
+category: conference-panel
 ---
 {% include talk_intro.liquid %}

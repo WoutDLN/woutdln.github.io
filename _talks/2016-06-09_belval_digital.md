@@ -8,6 +8,7 @@ eventtitle: DH Benelux 2016
 location: Belval, Luxembourg
 venue: University of Luxembourg
 date: 2016-06-09/2016-06-10
-category: posters
+img: /assets/img/cities/belval.jpg
+category: poster
 ---
 {% include talk_intro.liquid %}

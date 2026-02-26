@@ -13,7 +13,7 @@ img: /assets/img/cities/stockholm.jpg
 slides: /assets/pdf/slides/2025-11-13_can-i-get-credit-for-my-dataset.pdf
 date: 2025-11-13
 eventdate: 2025-11-12/2025-11-13
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

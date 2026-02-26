@@ -11,6 +11,6 @@ location: Borås, Sweden
 img: /assets/img/cities/boras.jpg
 date: 2016-04-18
 eventdate: 2016-04-18
-category: local-seminars
+category: local-seminar
 ---
 {% include talk_intro.liquid %}

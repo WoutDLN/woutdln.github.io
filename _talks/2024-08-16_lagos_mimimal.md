@@ -12,6 +12,6 @@ eventtitleaddon: Exploring Opportunities and Possibilities in Digital Humanities
 date: 2024-08-16
 eventdate: 2024-08-14/2024-08-16
 img: /assets/img/events/2024-08-lagos/cedhul.jpg
-category: invited-talks
+category: invited-talk
 ---
 {% include talk_intro.liquid %}

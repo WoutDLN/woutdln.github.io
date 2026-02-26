@@ -10,6 +10,6 @@ location: Utrecht, The Netherlands
 img: /assets/img/cities/utrecht.jpg
 venue: Utrecht University
 date: 2016-07-03/2016-07-05
-category: posters
+category: poster
 ---
 {% include talk_intro.liquid %}

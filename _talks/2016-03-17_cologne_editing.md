@@ -11,6 +11,6 @@ location: Cologne, Germany
 venue: University of Cologne
 date: 2016-03-17
 eventdate: 2016-03-14/2016-03-18
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

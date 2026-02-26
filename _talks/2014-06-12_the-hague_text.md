@@ -13,7 +13,7 @@ eventurl: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org
 date: 2014-06-12
 img: /assets/img/cities/thehague.jpg
 pdf: /assets/pdf/posters/2014-06-13_the-text-of-the-document_poster.pdf
-category: posters
+category: poster
 ---
 {% include talk_intro.liquid %}
 

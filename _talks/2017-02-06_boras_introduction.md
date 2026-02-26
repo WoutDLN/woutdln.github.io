@@ -10,6 +10,6 @@ location: Borås, Sweden
 venue: University of Borås
 img: /assets/img/cities/boras.jpg
 date: 2017-02-06
-category: workshops
+category: workshop
 ---
 {% include talk_intro.liquid %}

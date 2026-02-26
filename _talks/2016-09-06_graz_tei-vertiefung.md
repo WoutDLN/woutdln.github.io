@@ -11,6 +11,6 @@ location: Graz, Austria
 venue: University of Graz
 img: /assets/img/cities/graz.jpg
 date: 2016-09-06
-category: workshops
+category: workshop
 ---
 {% include talk_intro.liquid %}

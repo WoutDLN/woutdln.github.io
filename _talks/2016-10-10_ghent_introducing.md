@@ -9,6 +9,6 @@ eventtitleaddon: First Annual Meeting
 location: Ghent, Belgium
 venue: Ghent University
 date: 2016-10-10/2016-10-13
-category: demos
+category: demo
 ---
 {% include talk_intro.liquid %}

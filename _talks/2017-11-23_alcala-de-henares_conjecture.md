@@ -10,7 +10,7 @@ location: Alcalá de Henares, Spain
 venue: University of Alcalá
 img: /assets/img/cities/alcala.jpg
 eventdate: 2017-11-23/2017-11-24
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

@@ -14,7 +14,7 @@ date: 2025-04-29
 eventdate: 2025-04-28/2025-04-30
 eventurl: "https://web.archive.org/web/20250510152629/https://cesr-ests2025.sciencesconf.org/"
 programmeurl: "https://web.archive.org/web/20250426070053/https://cesr-ests2025.sciencesconf.org/program/details"
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

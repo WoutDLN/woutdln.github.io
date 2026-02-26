@@ -11,6 +11,6 @@ venue: De Montfort University
 location: Leicester, UK
 date: 2015-11-19
 eventdate: 2015-11-19/2015-11-21
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

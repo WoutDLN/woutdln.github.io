@@ -11,6 +11,6 @@ location: Graz, Austria
 img: /assets/img/cities/graz.jpg
 date: 2016-09-24
 eventdate: 2016-09-23/2016-09-24
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

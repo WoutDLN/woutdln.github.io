@@ -10,6 +10,6 @@ location: Cambridge, UK
 venue: University of Cambridge
 img: /assets/img/cities/cambridge.jpg
 eventdate: 2018-09-27/2018-09-28
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}

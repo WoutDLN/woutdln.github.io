@@ -11,6 +11,6 @@ eventtitleaddon: Research Seminars of the Swedish School of Library and Informat
 location: Borås, Sweden
 img: /assets/img/cities/boras.jpg
 date: 2025-09-08
-category: local-seminars
+category: local-seminar
 ---
 {% include talk_intro.liquid %}

@@ -12,7 +12,7 @@ date: 2013-07-13
 pdf: /assets/pdf/slides/2013-07-12_the-bdmp-as-a-collaborative-genetic-edition.pdf
 img: /assets/img/cities/saskatoon.jpg
 eventurl: "https://web.archive.org/web/20140301035751/https://ocs.usask.ca/conf/index.php/sdse/sdse13"
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

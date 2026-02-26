@@ -13,7 +13,7 @@ date: 2014-06-13
 img: /assets/img/cities/thehague.jpg
 eventurl: "https://web.archive.org/web/20210121170442/https://2014.dhbenelux.org/"
 pdf: /assets/pdf/slides/2014-06-13_the-text-of-the-document_paper.pdf
-category: conference-papers
+category: conference-paper
 ---
 {% include talk_intro.liquid %}
 

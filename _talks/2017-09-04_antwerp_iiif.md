@@ -10,6 +10,6 @@ img: /assets/img/cities/antwerp.jpg
 venue: University of Antwerp
 date: 2017-09-04/2017-09-05
 eventdate: 2017-09-03/2017-09-07
-category: workshops
+category: workshop
 ---
 {% include talk_intro.liquid %}
