@@ -1,3 +1,5 @@
+{% assign talk_type = talk.category | to_s | strip | split: "-" | join: " "%}
+
 <div class="col">
   <a href="{% if talk.redirect %}{{ talk.redirect }}{% else %}{{ talk.url | relative_url }}{% endif %}">
     <div class="card h-100 hoverable">
@@ -10,6 +12,7 @@
           alt="talk thumbnail"
           class="card-img-top"
         %}
+        <div class="ribbon">{{ talk_type }}</div>
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ talk.eventtitle }}</h2>

@@ -51,3 +51,27 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #fff;
+}
+.ribbon {
+  --f: .5em; /* control the folded part*/
+  --r: .8em; /* control the ribbon shape */
+  
+  position: absolute;
+  top: 20px;
+  right: calc(-1*var(--f));
+  padding-inline: .25em;
+  line-height: 1.8;
+  background: var(--global-theme-color) !important;
+  border-bottom: var(--f) solid #0005;
+  border-left: var(--r) solid #0000;
+  clip-path: 
+    polygon(0 0,100% 0,100% calc(100% - var(--f)),calc(100% - var(--f)) 100%,
+      calc(100% - var(--f)) calc(100% - var(--f)),0 calc(100% - var(--f)),
+      var(--r) calc(50% - var(--f)/2));
+}
