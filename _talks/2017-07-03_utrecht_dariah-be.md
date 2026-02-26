@@ -9,7 +9,7 @@ eventtitle: DH Benelux 2017
 location: Utrecht, The Netherlands
 img: /assets/img/cities/utrecht.jpg
 venue: Utrecht University
-date: 2016-07-03/2016-07-05
+date: 2017-07-03/2017-07-05
 category: poster
 ---
 {% include talk_intro.liquid %}
