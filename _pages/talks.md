@@ -18,7 +18,7 @@ horizontal: false
     <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_talks = site.talks | where: "year", category %}
-  {% assign sorted_talks = categorized_talks | sort: "year" | reverse %}
+  {% assign sorted_talks = categorized_talks | sort: "date" %}
   <!-- Generate cards for each talk -->
   {% if page.horizontal %}
   <div class="container">
