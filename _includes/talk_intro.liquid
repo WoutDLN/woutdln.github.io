@@ -8,9 +8,9 @@
 {% assign link_label = "" %}
     {% if page.category %}
         {% assign t = page.category %}
-        {% if t == "posters" %}
+        {% if t == "poster" %}
             {% assign link_label = "Poster" %}
-        {% elsif t == "demos" %}
+        {% elsif t == "demo" %}
             {% assign link_label = "Flyer" %}
         {% else %}
             {% assign link_label = "Slides" %}
@@ -27,8 +27,7 @@
             on <strong>{{ page.date | date: "%A %e %B %Y" }}</strong>{% endif %}. 
      This event took place 
         in <strong>{{ page.location }}</strong>, 
-        at the <strong>{{ page.venue }}</strong>,
-            {% if eventdates.size == 1 %}on <strong>{{ page.eventdate }}</strong>{% endif %}
+        at the <strong>{{ page.venue }}</strong>{% if eventdates.size == 1 %}. {% else %}, {% endif %}
             {% if eventdates.size > 1 %}from <strong>
                 {% if fromdate_monthyear == todate_monthyear %}
                     {{ fromdate | date: "%e" }}
@@ -37,7 +36,7 @@
                 {% else %}
                     {{ fromdate | date : "%e %B %Y" }}
                 {% endif %}
-            </strong> to <strong>{{ todate | date : "%e %B %Y" }}</strong>{% endif %}. 
+            </strong> to <strong>{{ todate | date : "%e %B %Y" }}</strong>.{% endif %} 
     </p>
 </div>
 {% if page.eventurl or page.programmeurl or page.pdf %}
@@ -49,7 +48,7 @@
         {% endif %}
         {% if page.eventurl and page.programmeurl or page.pdf or page.bookofabstracts %} | {% endif %}
         {% if page.programmeurl %}
-            <a href="{{ page.programmeurl }}" target="_blank">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i>{% endif %}</a>
+            <a href="{{ page.programmeurl }}" target="_blank">Programme{% if page.programmeurl contains "web.archive.org" %} <i class="fa fa-archive" aria-hidden="true" title="Link archived using the web archive"></i> {% elsif page.programmeurl contains ".pdf" %} <i class="fa fa-file-pdf" aria-hidden="true" title="PDF of the programme"></i>{% endif %}</a>
         {% endif %}
         {% if page.programmeurl and page.pdf or page.bookofabstracts %} | {% endif %}
         {% if page.pdf %}
