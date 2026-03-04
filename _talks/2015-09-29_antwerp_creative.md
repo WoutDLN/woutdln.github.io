@@ -14,44 +14,9 @@ venue: University of Antwerp
 date: 2015-09-29
 category: conference-paper
 ---
-{% include talk_intro.liquid %}events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
-events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
-events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
-events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
-events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
-events/past-events/towards-a-genetics-o/"
-programmeurl: /assets/pdf/events/2015-09_towards-a-genetics-of-translation.pdf
-venue: University of Antwerp
-date: 2015-09-29
-category: conference-paper
----
+{% include talk_intro.liquid %}
 
-
+## Abstract
 
 This paper will introduce the newest issue of Manuscrítica ([http://www.revistas.fflch.usp.br/manuscritica](http://www.revistas.fflch.usp.br/manuscritica)), a Brazilian open access journal on Genetic Criticism that has invited the team of the
 University of Antwerp’s Centre for Manuscript Genetics to compile a special issue on their research.

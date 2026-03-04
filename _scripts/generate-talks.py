@@ -95,7 +95,7 @@ for entry in entries:
             # Read the existing content
             existing_content = md.read()
             # Split the content to get everything after the YAML front matter
-            orig_content = existing_content.split('---', 2)[2].strip() if existing_content.count('---') > 1 else ""
+            orig_content = existing_content.split('---\n', 2)[2].strip() if existing_content.count('---\n') > 1 else ""
             # Remove previous occurrences of talk_intro from orig_content
             orig_content = orig_content.replace(talk_intro, '')
     else:
